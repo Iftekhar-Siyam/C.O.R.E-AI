@@ -1,0 +1,94 @@
+# C.O.R.E-AI
+C.O.R.E. is an interactive AI-based Chatbot application developed using the C programming language. In an era where artificial intelligence is transforming human-machine interaction, this project aims to demonstrate how a rule-based system can effectively communicate, assist, and provide information to users in a terminal environment.
+Introduction:
+Welcome to our GOLD PROJECT. The project, titled C.O.R.E. (Created Only Remembering
+Everyone), is an interactive AI-based Chatbot application developed using the C programming
+language. In an era where artificial intelligence is transforming human-machine interaction, this project
+aims to demonstrate how a rule-based system can effectively communicate, assist, and provide
+information to users in a terminal environment.
+The primary objective of C.O.R.E. is to provide a seamless user experience by combining logic-driven
+responses with a personalized touch. Unlike traditional command-line programs, this chatbot features a
+stylized interface using ANSI color sequences and a persistent memory system to recognize the user. It
+is designed to handle various tasks, including basic calculations, identity verification, and emotional tone
+simulation, making it both a functional tool and an engaging companion.
+Objectives:
+The primary objectives of the C.O.R.E. chatbot project are as follows:
+● Interactive Communication: To develop a functional terminal-based application that can simulate
+human-like conversations using conditional logic and string processing in C.
+● System Integration: To implement low-level system commands and Windows API configurations
+(such as SetConsoleMode) to enhance the standard command-line interface.
+● Persistent Data Management: To utilize file handling techniques in C, allowing the chatbot to store
+and retrieve user data (like names and preferences) even after the program is closed.
+● Visual Enhancement: To create an aesthetically pleasing user interface using ANSI escape
+sequences for color coding and ASCII art for branding.
+● Algorithm Implementation: To apply core programming concepts such as pseudorandom
+number generation (srand) and control structures to provide diverse and non-repetitive
+responses.
+Features:
+Our application highlights fourteen main features, and there's even more variety of useful tools
+and options beyond these key elements. The main fourteen features are:
+1. Persistent User Memory :
+• Uses C file handling (.txt) to remember the user's name and details
+across different sessions.
+2. Session History Logging :
+• Every interaction is recorded with a timestamp in history.txt, creating a permanent log of
+conversations that can be reviewed or cleared by the user.
+3. Gamified Riddle Engine :
+• A built-in challenge module presents random riddles with a scoring
+system and a "hint" feature to keep the user engaged.
+4. Integrated Mathematical Solver:
+The bot processes string inputs to perform arithmetic operations like addition, subtraction,
+multiplication, and division using sscanf logic.
+5.Advanced ANSI TrueColor UI :
+• By leveraging the Windows API, the interface displays high-end colors like Gold and Navy Blue,
+moving beyond standard terminal limitations.
+6.Dynamic ASCII Branding :
+• Upon startup, the program displays a large-scale ASCII art logo of "C.O.R.E.", establishing a
+unique visual identity for the "Gold Team" project.
+7.Real-Time Temporal Awareness :
+• The chatbot fetches the current system time and date, providing the user with accurate
+information about the day and hour upon request.
+8.Chronological Greeting Logic :
+• The system analyzes the current hour to provide context-aware greetings, such as "Good
+Morning" or "Good Night," tailored specifically to the user.
+9.Humor & Roast Algorithms :
+• The bot includes a database of jokes and "roasts" to simulate a witty personality and keep the
+conversation lighthearted.
+10.Randomized Fortune Telling :
+• Using a random number generator, the AI predicts the user's "future" or provides a daily fortune,
+adding an element of fun and unpredictability.
+11.Heuristic Keyword Matching :
+• Instead of simple commands, the bot scans user input for specific keywords (like "who," "thank,"
+or "how") to provide relevant conversational replies.
+12.Process Loading Simulation :
+• To mimic human-like thinking or data processing, the bot uses a loading() function with timed
+delays to create a realistic AI feel.
+13.Global Scoring System :
+• The program tracks a "Session Score" based on riddle accuracy and math solutions, encouraging
+the user to beat their previous high score.
+14.Intelligent Fallback System :
+• When the input is unrecognized, the bot selects from a variety of "fallback" responses to ensure
+the conversation never hits a dead end.
+Tools:
+We made our C.O.R.E. very carefully using strong tools and technologies. This helps make
+sure that when people use it, everything works smoothly, and they can easily do what they
+want on the website.
+• Programming Language (C Language): The core logic, file handling, and string
+processing of the chatbot are entirely developed using the C programming language.
+• VS Code: This integrated development environment is used to write, debug, and manage
+the C.O.R.E.c source file.
+• Compiler: GCC (MinGW): The GNU Compiler Collection is utilized to transform the C
+source code into an executable .txt file for Windows.
+• Operating System: Windows 10/11: The project is specifically designed for the Windows
+environment, utilizing Windows-specific headers like windows.h.
+• Header Files: <stdio.h> , <stdlib.h>,<string.h>&<time.h>.
+• File System (TXT Database): Plain text files (profile.txt and history.txt) act as a
+lightweight database tool to store user data and chat logs.
+Design:
+Flowchart of the Design:
+1. Start —> Load User Profile.
+2. Input —> User types a message.
+3. Process —> Search for Keywords (Riddle, Math, Story, etc.).
+4. Execute —> Perform the specific function and update scores.
+5. Save —> Log the message in history and save the profile.
+6. Loop —> Return to Step 2 until "/exit" is typed.
